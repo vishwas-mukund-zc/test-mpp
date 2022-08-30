@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'testSDK25'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #   "OTHER_LDFLAGS" => "-lsqlite3"
   #  }
 
-  # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
 end
